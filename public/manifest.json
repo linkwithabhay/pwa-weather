@@ -3,7 +3,7 @@
   "name": "Weather: A Progressive Web App",
   "icons": [
     {
-      "src": "./images/logo.svg",
+      "src": "./images/logo.png",
       "type": "image/png",
       "sizes": "1024x1024"
     }
