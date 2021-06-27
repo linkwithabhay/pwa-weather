@@ -34,8 +34,6 @@ export default function App() {
     }
   };
 
-  console.log(weather, query);
-
   return (
     <>
       <div className="main-container">
