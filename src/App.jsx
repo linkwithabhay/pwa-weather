@@ -13,7 +13,6 @@ export default function App() {
 
   const search = async (e) => {
     if (e.key === "Enter" && query) {
-      // alert(`${e.key} is pressed for the query: ${query}`);
       const data = await fetchWeather(query);
       setWeather(data);
       setTemp(Math.round(data?.main?.temp));
@@ -45,7 +44,7 @@ export default function App() {
           onChange={(e) => setQuery(e.target.value)}
           onKeyUp={search}
         />
-        {weather.main && (
+        {weather?.main && (
           <>
             <div className="city">
               <h2 className="city-name">
