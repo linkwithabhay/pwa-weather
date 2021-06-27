@@ -10,8 +10,7 @@ body,
 
 .main-container {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418));
-  /* background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg"); */
-  background-image: url("https://images.pexels.com/photos/5644346/pexels-photo-5644346.jpeg");
+  background-image: url("https://images.pexels.com/photos/5644346/pexels-photo-5644346.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=720&w=1080");
   background-size: cover;
   background-position: center;
 }
